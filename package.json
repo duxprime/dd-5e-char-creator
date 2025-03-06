@@ -1,23 +1,27 @@
 {
-  "name": "dd-5e-char-creator",
-  "version": "1.0.0",
-  "description": "Character creator web application for D&D 5E.",
-  "main": "index.js",
-  "private": true,
-  "scripts": {
-    "test": "test"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/duxprime/dd-5e-char-creator.git"
-  },
-  "author": "Chris Duxbury",
-  "license": "UNLICENSED",
-  "bugs": {
-    "url": "https://github.com/duxprime/dd-5e-char-creator/issues"
-  },
-  "homepage": "https://github.com/duxprime/dd-5e-char-creator#readme",
-  "devDependencies": {
-    "prettier": "3.5.3"
-  }
+    "name": "dd-5e-char-creator",
+    "version": "1.0.0",
+    "description": "Character creator web application for D&D 5E.",
+    "private": true,
+    "scripts": {
+        "test": "test",
+        "format": "npx prettier . --write",
+        "format-check": "npx prettier . --check"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/duxprime/dd-5e-char-creator.git"
+    },
+    "author": "Chris Duxbury",
+    "license": "UNLICENSED",
+    "bugs": {
+        "url": "https://github.com/duxprime/dd-5e-char-creator/issues"
+    },
+    "homepage": "https://github.com/duxprime/dd-5e-char-creator#readme",
+    "workspaces": [
+        "projects/*"
+    ],
+    "devDependencies": {
+        "prettier": "3.5.3"
+    }
 }
