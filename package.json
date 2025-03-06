@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/duxprime/dd-5e-char-creator/issues"
   },
-  "homepage": "https://github.com/duxprime/dd-5e-char-creator#readme"
+  "homepage": "https://github.com/duxprime/dd-5e-char-creator#readme",
+  "devDependencies": {
+    "prettier": "3.5.3"
+  }
 }
