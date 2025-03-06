@@ -1,0 +1,20 @@
+{
+  "name": "dd-5e-char-creator",
+  "version": "1.0.0",
+  "description": "Character creator web application for D&D 5E.",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/duxprime/dd-5e-char-creator.git"
+  },
+  "author": "Chris Duxbury",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/duxprime/dd-5e-char-creator/issues"
+  },
+  "homepage": "https://github.com/duxprime/dd-5e-char-creator#readme"
+}
