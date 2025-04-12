@@ -19,7 +19,7 @@
     },
     "homepage": "https://github.com/duxprime/dd-5e-char-creator#readme",
     "workspaces": [
-        "projects/*"
+        "packages/*"
     ],
     "devDependencies": {
         "prettier": "3.5.3"
