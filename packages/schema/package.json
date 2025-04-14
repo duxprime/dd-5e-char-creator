@@ -1,0 +1,22 @@
+{
+    "name": "@dnd/schema",
+    "version": "0.0.1",
+    "private": true,
+    "description": "DTO type definitions and sample data for D&D 5E API.",
+    "type": "module",
+    "scripts": {
+        "prebuild": "npm run clean-dist",
+        "build": "tsc",
+        "clean-dist": "rimraf ./dist"
+    },
+    "devDependencies": {
+        "rimraf": "^6.0.1",
+        "typescript": "^5.8.3"
+    },
+    "exports": {
+        "./character": "./dist/character/index.js",
+        "./class": "./dist/class/index.js"
+    },
+    "author": "Chris Duxbury",
+    "license": "UNLICENSED"
+}

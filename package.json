@@ -1,12 +1,12 @@
 {
-    "name": "dd-5e-char-creator",
+    "name": "dnd-5e-char-creator",
     "version": "1.0.0",
     "description": "Character creator web application for D&D 5E.",
     "private": true,
     "scripts": {
-        "test": "test",
         "format": "npx prettier . --write",
-        "format-check": "npx prettier . --check"
+        "format-check": "npx prettier . --check",
+        "start": "concurrently \"npm run start --workspace=@dnd/frontend\" \"npm run start:dev --workspace=@dnd/api\""
     },
     "repository": {
         "type": "git",
@@ -22,6 +22,7 @@
         "packages/*"
     ],
     "devDependencies": {
+        "concurrently": "^9.1.2",
         "prettier": "3.5.3"
     }
 }
